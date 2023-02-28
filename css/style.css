@@ -1,1 +1,53 @@
+/* Materialize CSS framework */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
+
+/* Custom CSS for the login page */
+
+body {
+  background-color: #f5f5f5;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"] {
+  border-bottom: none;
+  border-radius: 0;
+  padding-left: 40px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  box-shadow: none;
+  border-color: #1976d2;
+}
+
+.toggle-password {
+  cursor: pointer;
+}
+
+.toggle-password:hover {
+  color: #1976d2;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
