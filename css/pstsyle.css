@@ -1,0 +1,45 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+  
+  .h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    margin-right: 30px;
+  }
+  
+  .col:last-child {
+    margin-right: 0;
+  }
+  
+  .label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .field-value {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
